@@ -1,0 +1,9 @@
+[package]
+name = "imgui-rs-serialize"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+imgui = { version = "0.8.2", optional = true }
+#imgui = { path = "../imgui-rs/imgui", optional = true }
+serde = { version = "1.0.136", features = ["derive"] }
